@@ -1,0 +1,53 @@
+h1, p, div, h3, b{
+    border: 2px solid black;
+   /* display: block;
+    display: inline;
+    display: none;*/
+    display: inline-block; /*se comporta inline con las cajas que la rodean y como blocke con el resto*/
+}
+
+/*a travez de la propiedad display podemos modificar el comportamiento de las etiquetas*/
+/*comportamiento en bloque display:block*/
+/*comportamiento en linea display:line*/
+
+/*MARGIN Y PADING*/
+/*EL BORDE QUE VA DESDE LA CAJA DE NUESTRA ETIQUETA AL EXTERIOR SE CONTROLA CON MARGIN Y AL INTERIOR CON PADING*/
+
+h1 {
+    margin: 10px;
+    padding: 50px;
+}
+
+div{
+    padding: 25px;/*Por regla toma los valores mas especificos que son los que especifica abajo top, bottom left y rigth por lo que este 25 queda nulo*/
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-right: 33px;
+    padding-bottom: 10px;
+}
+
+p{
+    padding: 50px 10px;/*forma de abreviar, por regla toma el primer valor para el top y bottom y el segundo valor para izquierda y derecha*/
+    margin: 200px 30px;
+}
+
+/*DIFETENTES REGLAS QUE SE PUEDEN APLICAR CON BORDER*/
+h1,p,div,h3,b{
+    border: 5px dotted #31e968,/*grosor borde, tipo linea, color*/
+    border: 3px;
+    border-color :blue;
+    border-style :double;
+    border-top: 10px red double;
+    border-bottom-color: green;
+    border-radius: 12px; /*se agrego a css3 permite hacer bordes re*/
+}
+
+p{
+    color: rebeccapurple;
+    font-size: 30px; /*tamaño de letra*/
+}
+
+b{
+    color:black;
+    
+}
