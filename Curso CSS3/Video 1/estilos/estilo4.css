@@ -1,0 +1,31 @@
+/*Selector wild card se utiliza para dar estilo a toda nuestra pagina inicia con un * asterisco */
+
+/*si aplicamos una regla de important hace que esta regla se aplique por 
+ensima de las demas (descomenta el codigo siguiente para ver resultado)*/
+/*
+*{
+    
+    color: red !important;
+}
+
+*/
+
+*{
+    color: green; 
+}
+
+p{
+
+    color: blue;
+}
+
+.selector-con-clase{
+    color: chocolate;
+}
+
+#selector-con-id{
+    color: aquamarine;
+}
+
+
+

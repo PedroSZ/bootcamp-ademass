@@ -1,0 +1,25 @@
+h1 {
+    color:red;
+
+  }
+
+p {
+    color: goldenrod;
+    font-size: 40px;
+  }
+
+.selector-clase {
+                    color: blueviolet;
+                }
+
+#unico{
+        color: aqua;
+        font-size: 20;
+    }
+
+  /*
+  Tipos de selectores
+  1- Selectores de Etiquetas
+  2- Selectores de Clases se inicia con un punto . y el nombre de la clase
+  3- Selectores de Identificador identificador unico se inicia con # sefuido del id
+  */

@@ -1,0 +1,23 @@
+button 
+{
+    background-color: brown;
+    color: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+/*con el pseudo selector hover podemos cambiar el aspecto de 
+nuestro boton anterior al pasar el raton por ensima. Ejemplo:*/
+
+button:hover 
+{
+    background-color: greenyellow;
+   
+}
+
+/*el pseudo selector focus es cuando el elemento tiene el foco
+o es seleccionado o pulsamos alguna tecla*/
+
+button:focus 
+{
+    background-color: blueviolet;
+}

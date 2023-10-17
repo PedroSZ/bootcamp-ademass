@@ -1,0 +1,29 @@
+/*Las agrupaciones se pueden aplicar a etiquetas ides y calses al mismo tiempo,*/
+h1, h2, h3, h4, h5, h6, .clases, #ids{
+                        color: red;
+                        font-size: 72;
+                       }
+
+h1{
+    margin: 5px;
+}
+
+/*Anidamiento afecta a etiquetas que se encuentran dentro de otra se deve cumplir la condiciion*/
+
+.principal a {
+    color: green;
+}
+
+div ul li a {
+    color: blueviolet;
+}
+
+/*Selector de atributo: sirven para indicar un estilo a un elemento en concreto pero debe contener un atributo*/
+nav ul li a {
+    font-size: 72;
+    color: blueviolet;
+}
+
+a[href="/inicio"]{  /*aplica un color solo al a que tenga el link al directorio inicio */
+    color: red;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: brown;
+    width: 1000px;
+    height: 300px;
+   
+
+}
+
+.child{
+        background-color: cadetblue;
+        width: 50%;
+}
+
+/*VIEW PORT
+tenemos un conjunto de medidas view port nosotros nos centraremos en 4 que son::after
+vw  - viewpor width
+vh - viewport height
+//ESTOS DOS SE UTILIZAN CON PANTALLAS DE DISPOSITIVOS MOVILES SIN TOMAR EN CUENTA EL SCROOL
+svh - small viewport height
+svw - small viewport width
+
+estos viewport es un porcentage pero a diferencia con el porcentage normal el vw siempre va a ser un porcentage con respecto a la anchura
+del porcentage del navegador sin importar cuanto mida su apadre. el svh es para moviles y toma en cuenta toda la pantalla ecepto el espacio del crool
+*/
+.container-viewport-ejem{
+    background-color: blueviolet;
+    width: 600px;
+    height: 300px;
+}
+
+.child-viewport-ejem{
+    background-color: aquamarine;
+    width: 50vw;
+}

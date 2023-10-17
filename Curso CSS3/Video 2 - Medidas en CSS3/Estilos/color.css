@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.color-exa{
+    background-color: #28a17765;/*formato hexadecimal*/
+    width: 600px;
+    height: 300px;
+}
+
+.color-rgb{
+    background-color: rgba(166, 59, 125, 0.209);
+    width: vw;
+    height: vh;
+}
+
+.color-hsl{
+    background-color: hsla(11, 91%, 50%, 0.893);
+
+}
