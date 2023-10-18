@@ -1,0 +1,19 @@
+
+.card{
+    position: relative;
+    background-color: rebeccapurple;
+    padding: 15px;
+    width: 500px;
+    height: 500px;
+}
+
+.card h3{
+    position: absolute;
+    background-color: blue;
+    top: 100px;
+    left: 200px;
+}
+
+/*el card tiene una posision relativa no es absoluta por lo que el h3 tiene una posision absoluta con respecto a este card
+El posisionamiento absoluto es igual que realtivo ya que se puede modificar su pocicion con parametros
+        lsft, right, top y bottom, con la diferencia que su pocicion es con respecto al elemento padre que no sea estatico o posision natural*/
