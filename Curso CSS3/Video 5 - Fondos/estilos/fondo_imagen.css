@@ -1,0 +1,12 @@
+.card {
+    width: 900px;
+    height: 300px;
+    background-image: url('../imagen.jpg');
+   /* background-repeat: no-repeat;*/
+    background-size: cover;  /*adapta el tamaño de la imagen al tamaño de su objeto padre*/
+    /*background-size: contain;  la imagen se contiene dentro de la etiqueta y repite la imagen para cubrir la etiqueta*/
+    color: white;
+    border-radius: 25px;
+
+    
+}
