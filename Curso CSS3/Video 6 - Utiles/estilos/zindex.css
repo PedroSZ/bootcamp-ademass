@@ -1,0 +1,19 @@
+.box1{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;z-index: 1;
+}
+
+.box2{
+    width: 156px;
+    height: 120px;
+    background-color: rgb(129, 24, 228);
+    overflow: hidden;
+    position: absolute;
+    top: 20;
+    left: 30;
+}

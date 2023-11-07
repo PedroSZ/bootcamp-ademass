@@ -1,0 +1,16 @@
+.container{
+    display: grid;/*le indicamos que el container sera una tabla*/
+    grid-template-rows: auto;/*declaramos que tendra 3 filas con medidas en fracciones*/
+    grid-template-columns: 1fr 2fr 1fr;/*declaramos que tendra 3 columnas con medidas en facciones*/
+    grid-gap: 10px;/*separacion entre las celdas formadas con las filas y columnas*/
+   /* justify-items: center;/*alinea elementos orizontalmente
+    align-items: center; /*alinea elementos verticalmente
+    justify-content: center;
+    align-content: center;*/
+}
+
+.grid-item{
+    background-color: blueviolet;
+    padding: 20px;
+    text-align: center;
+}

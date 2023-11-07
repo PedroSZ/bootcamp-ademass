@@ -1,0 +1,30 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+main{
+    background-color: blueviolet;
+   /* width: 800px;
+    height: 800px;*/
+    width: 100vw;
+    height: 100vh;/*virtual width nos indica que es es con respectoa la pantalla y 100 el porcentaje*/
+    display: flex; /*por defecto el flex es row pero podemos cambiarlo con flex direction*/
+    /*flex-direction: column; con flex colum lo cambiamos a columnas*/
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;/*centra */
+    flex-wrap: wrap;
+
+}
+
+.card{
+ background-color:  orangered;
+ width: 250px;
+ height: 250px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ margin: 5px;
+}

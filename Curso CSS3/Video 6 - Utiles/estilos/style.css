@@ -1,0 +1,28 @@
+ul {
+    list-style-type: none;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+li {
+    display: inline;
+}
+
+a { 
+    text-decoration: none;
+    color: white;
+}
+
+li:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+
+
+p {
+    cursor:grab;
+}
+

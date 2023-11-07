@@ -39,7 +39,7 @@ h1,p,div,h3,b{
     border-style :double;
     border-top: 10px red double;
     border-bottom-color: green;
-    border-radius: 12px; /*se agrego a css3 permite hacer bordes re*/
+    border-radius: 100px; /*se agrego a css3 permite hacer bordes re*/
 }
 
 p{

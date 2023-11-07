@@ -1,0 +1,46 @@
+/*aqui declaramos nuestras variables con la plabra recervado :root*/
+:root{
+    --color-primary: #ffef0b; /*para declarar una variable usamos el -- doble menos*/
+    --color-secondary: #074712;
+    --color-bg: #333;
+    --font-title: naruto;
+    --font-text: regular;
+
+}
+/*desde este panel de variables podemos controlar todos los parametros del diseño*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: var(--color-bg); /*para usar la variable la mandamos llamar con la palabra recervada var seguido del nombre de la misma entre parentecis*/
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1, h2, h3, h3, h4, h5, h6 {
+    color: var(--color-primary);
+    font-family: var(--font-title);
+}
+
+.card{
+    background-color: var(--color-secondary);
+    font-family: var(--font-text);
+    width: 180px;
+    height: 400;
+}
+/*para importar archivos externos usamos @ seguido del tipo de elemento a importar y entre los parentecis
+colocamos el nombre del elemento seguido de el nombre del archivo y en seguida su url donde se ubica*/
+@font-face {
+    font-family: naruto;
+    src: url('../../Video 7 -Font face/fuentes/naruto.ttf');
+}
+@font-face {
+    font-family: regular;
+    src: url('../../Video 7 -Font Face/fuentes/regular.ttf');
+}

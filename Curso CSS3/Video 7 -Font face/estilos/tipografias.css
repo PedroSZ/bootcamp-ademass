@@ -1,0 +1,15 @@
+h1{
+    font-family: naruto;
+}
+p{
+    font-family: regular;
+}
+
+@font-face {
+    font-family: naruto;
+    src: url('../fuentes/naruto.ttf');
+}
+@font-face {
+    font-family: regular;
+    src: url('../fuentes/regular.ttf');
+}

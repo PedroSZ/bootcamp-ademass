@@ -1,0 +1,73 @@
+/*lo que podemos hacer a travez de un media querty es que ciertas reglas se apliquen solo bajo ciertas condiciones
+ademas dichas reglas seran sobre escitas en caso que colicionen con cualquiera de las reglas generales*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu_mobile{
+    visibility: hidden;
+}
+
+.menu{
+    visibility: visible;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+main{
+width: 100vw;
+height: 100vh;
+background-color: blueviolet;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.card{
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+}
+
+.card h3 {
+    text-transform: uppercase;
+    color: #666;
+}
+
+.car p { 
+    color: #666;
+}
+
+/*Declcaramos una media y entre parenticis que condiciones deben cumplirse para que estas reglas se aplique*/
+@media(max-width:800px) {
+    .card{
+        background-color: red;
+        color:aliceblue;
+    }
+
+    .card h3{
+        color: green;
+    }
+    .card p {
+        color: lawngreen;
+    }
+
+    .menu_mobile{
+        visibility: visible;
+    }
+    .menu{
+        visibility: hidden;
+    }
+    
+}
+

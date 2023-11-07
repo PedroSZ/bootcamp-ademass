@@ -1,0 +1,12 @@
+.mi-texto{
+    background: linear-gradient(#2e04e7, #fd0505, #d8fd0570);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-family: naruto;
+}
+@font-face {
+    font-family: naruto;
+    src: url('../../Video 7 -Font face/fuentes/naruto.ttf');
+   
+}
